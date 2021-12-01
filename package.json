@@ -1,0 +1,17 @@
+{
+  "name": "simplewebserver",
+  "version": "1.0.0",
+  "description": "a simple web server for static website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "mahender rajput",
+  "license": "ISC",
+  "dependencies": {
+    "connection-to-mongodb": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
